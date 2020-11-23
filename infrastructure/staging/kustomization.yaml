@@ -4,3 +4,4 @@ resources:
   - ../base/sources
   - ../base/nginx
   - ../base/redis
+  - ../base/vault

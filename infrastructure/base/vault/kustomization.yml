@@ -1,0 +1,6 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
+kind: Kustomization
+namespace: vault
+resources:
+  - ns.yml
+  - vault-operator.yml
