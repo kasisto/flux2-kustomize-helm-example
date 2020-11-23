@@ -8,7 +8,7 @@ spec:
   releaseName: vault-operator
   chart:
     spec:
-      chart: redis
+      chart: vault-operator
       sourceRef:
         kind: HelmRepository
         name: banzaicloud
